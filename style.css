@@ -1,0 +1,96 @@
+.main{
+    margin: auto;
+    width: max-content;
+    margin-top: 100px;
+
+}
+.face{
+    height: 280px;
+    width: 280px;
+    background: darkolivegreen;
+    border-radius: 50% 50% 50% 50%;
+    margin: auto;
+    border:3px solid black;
+    margin-top: -115px;
+    position: absolute;
+    margin-left: -30px;
+}
+.ears{
+    display: flex;
+    justify-content: center;
+    width:220px;
+    margin-top: 20px;
+}
+.lear,.rear{
+    width: 1000px;
+    height: 140px;
+    border-radius: 50% 50% 0% 0%;
+    background: darkolivegreen;
+    border: 3px solid black;
+    margin:auto;
+    margin-top: 50px;
+}
+
+.eyes{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+}
+.leye,.reye{
+    height: 70px;
+    width: 70px;
+    background: white;
+    border-radius:50% ;
+}
+.leyeball,.reyeball{
+    height: 35px;
+    width: 35px;
+    background: black;
+    border-radius:50% ;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.nose{
+    height: 50px;
+    width: 100px;
+    background: red;
+    margin: auto;
+    margin-top: 20%;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+.balls{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+.lball,.rball{
+    height: 30px;
+    width: 30px;
+    background: black;
+    border-radius:50% ;
+    display: flex;
+
+}
+.reyeball:hover{
+    margin-top: 15px;
+    margin-left: 30px;
+    transition: 1.0s;
+}
+.leyeball:hover{
+     margin-top: 15px;
+     margin-left: 30px;
+     transition:1.0s;
+}
+.nose:hover{
+    height: 40px;
+    width: 80px;
+}
+.lball:hover{
+    height: 20px;
+    width: 20px;
+}
+.rball:hover{
+    height: 20px;
+    width: 20px;
+}
